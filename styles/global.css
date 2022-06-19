@@ -1,0 +1,30 @@
+:root {
+    --primary: hsla(268, 100%, 50%, 0.15);
+    --secondary: hsla(349, 100%, 53%, 0.40);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    min-width: 350px;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
