@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>Sportify</title>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__menu">
+                <div class="logo header__logo">
+                    <a href="index.html"><img src="images/logo_3.png" alt="sportify logo" title="sportify logo" aria-label="logo"></a>
+                </div>
+            
+                <button class="header__burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                    <span class="burger__line burger__line_fourth"></span>
+                </button>
+                
+                
+                <nav class="nav">
+                        <ul class="nav__items">
+                            <li class="nav__link first-link"><a href="index.html" title="Home page">Home</a></li>
+                            <li class="nav__link"><a href="about.html" title="About us page">About us</a></li>
+                            <li class="nav__link"><a href="classes.html" title="Classes page">Classes</a></li>
+                            <li class="nav__link"><a href="blog.html" title="Blog page">Blog</a></li>
+                            <li class="nav__link"><a href="contact.html" title="Contacts page">Contact</a></li>
+                        </ul>
+                </nav>                              
+                
+                <div class="social">
+                    <div class="social__items">
+
+                        <div class="social__links">
+                            <a href="https://www.pinterest.com/"  title="social__link" target="_blank" aria-label="pinterest">
+                                <svg class="social__icon" aria-label="pinterest">
+                                    <use href="icons/svgicons.svg#pinterest"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.facebook.com/" title="social__link" target="_blank" aria-label="facebook">
+                                <svg class="social__icon" aria-label="facebook">
+                                    <use href="icons/svgicons.svg#facebook"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.twitter.com/" title="social__link" target="_blank" aria-label="twitter">
+                                <svg class="social__icon" aria-label="twitter">
+                                    <use href="icons/svgicons.svg#twitter"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.dribbble.com/" title="social__link" target="_blank" aria-label="dribbble">
+                                <svg class="social__icon" aria-label="dribbble">
+                                    <use href="icons/svgicons.svg#dribbble"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.behance.com/" title="social__link" target="_blank" aria-label="behance">
+                                <svg class="social__icon" aria-label="behance">
+                                    <use href="icons/svgicons.svg#behance"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div> <!--/.social__items-->
+                </div> <!--/.social-->
+
+                
+
+            </div> <!--/.header__menu-->
+        </div> <!--/.header__wrapper-->
+
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="slider_indicator active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slider_indicator" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="slider_indicator" aria-label="Slide 3"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/index1.jpg" class="d-block w-100" alt="index image 1" title="girl with tattoo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/index2.jpg" class="d-block w-100" alt="index image 2" title="man lifts a kettlebell">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/index3.jpg" class="d-block w-100" alt="index image 3" title="girls training">
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="intro">
+                    <div class="container">
+                        <div class="intro__suptitle">Go to the gym now!</div>
+                        <h1 class="intro__title">Never<span class="intro__title-span"> Limit<br> yourself</span></h1>
+
+                        <div class="header__button">
+                            <a class="button" href="#" aria-label="button" role="button">Read more</a>  
+                        </div>
+                    </div>
+                </div> <!--/.intro-->
+            </div>
+        </div> <!--/.container-fluid-->           
+    </header>
+
+    <main class="main">
+
+        <section class="programs">
+            <div class="programs__inner">
+
+                <div class="programs__item">
+                        <svg class="programs__icon">
+                            <use href="icons/svgicons.svg#star-medal"/>
+                        </svg>
+                    <h3 class="programs__title">AEROBICS PROGRAM</h3>
+                    <p class="programs__text">Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus.</p>
+                </div>
+
+                <div class="programs__item item-purple">
+                    <svg class="programs__icon">
+                        <use href="icons/svgicons.svg#training"/>
+                    </svg>
+                    <h3 class="programs__title">TRAIN HARD</h3>
+                    <p class="programs__text">Sed porta vel lacus quis lacinia. Vestibulum nec justo lectus. In hac habitasse platea dictumst. Proin vulputate rhoncus nibh eu vehicula.Sed porta vel lacus quis lacinia.</p>
+                </div>
+
+                <div class="programs__item item-pink">
+                    <svg class="programs__icon">
+                        <use href="icons/svgicons.svg#watch"/>
+                    </svg>
+                    <h3 class="programs__title">BASIC PROGRAM</h3>
+                    <p class="programs__text">Consectetur adipisicing elit. Eligendi voluptas officia modi in commodi ducimus dignissimos explicabo recusandae assumenda perferendis itaque perspiciatis quas autem sint aspernatur natus dolor ab labore, quasi ipsam at expedita.</p>
+                </div>
+
+            </div>
+        </section> <!--/.programs-->
+
+        <section class="about">
+            
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__content">
+                        <h3 class="subtitle about__subtitle">AEROBICS PROGRAM</h3>
+
+                        <h2 class="title about__title">ABOUT SPORTIFY</h2>
+
+                        <p class="about__text">Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel lacus quis lacinia. Vestibulum nec justo lectus. In hac habitasse platea dictumst. Proin vulputate rhoncus nibh eu vehicula. Donec vitae laoreet quam, ac feugiat nibh. Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus.</p>
+                        <div class="about__button">
+                            <a class="button" href="#" title="read more button">Read more</a> 
+                        </div>
+                    </div>
+
+                    <div class="about__image wow slideInRight" data-wow-duration="0.7s" data-wow-delay=".2s" >
+                        <img src="images/about.png" alt="About picture" title="Pedestal">
+                    </div>
+                </div>
+            </div>
+        </section> <!--/.about-->
+
+        <div class="quote">
+            <div class="container">
+                <div class="quote__content wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <p class="quote__text">
+                        <q>Training gives us an outlet for suppressed energies created by stress and thus tones the spirit just as exercise conditions the body.</q>
+                    </p>
+
+                    <div class="quote__author">&ndash; Arnold Schwarzenegger</div>
+
+                </div>
+            </div>
+        </div> <!--/.quote-->
+
+        <section class="join">
+                    <div class="join__picture"></div>
+
+                    <div class="join__content">
+                        
+                        <h3 class="subtitle join__subtitle">AEROBICS PROGRAM</h3>
+                        <h2 class="title join__title">JOIN OUR GYM</h2>
+                        <div class="join__paragraphs">
+                            <ul class="join__list">
+                                <li class="join__item">Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in.</li>
+                                <li class="join__item">Duis rutrum nisi tempus finibus luctus. Sed porta vel lacus quis lacinia.</li>
+                                <li class="join__item">Vestibulum nec justo lectus. In hac habitasse platea dictumst.</li>
+                                <li class="join__item">Proin vulputate rhoncus nibh eu vehicula. Donec vitae laoreet quam, ac feugiat nibh.</li>
+                            </ul>
+                        </div>
+
+                        <div class="join__button">
+                            <a class="button" href="#" title="read more button" aria-label="button">Read more</a> 
+                        </div>
+                    </div>
+        </section> <!--/.join-->
+
+
+        <section class="classes">
+            <div class="container">
+
+                <h3 class="subtitle classes__subtitle wow fadeInRightBig" data-wow-duration="0.6s" data-wow-delay=".2s" data-wow-offset="180">OUR PROGRAMS</h3>
+                    <h2 class="title wow fadeInRightBig" data-wow-duration="0.6s" data-wow-delay=".2s" data-wow-offset="180">CLASSES</h2>
+
+                        <div class="classes__inner wow fadeInLeftBig" data-wow-duration="0.6s" data-wow-delay=".2s" data-wow-offset="200">
+
+
+
+                            <div class="classes__item">
+                                <div class="classes__content">
+                                    <h3 class="classes__name">AEROBICS</h3>
+                                    <p class="classes__text">
+                                        Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel.
+                                    </p>
+                                    <div class="classes__photo">
+                                        <img class="classes__instructor" src="images/instructor_1.jpg" alt="Picture of instructor" title="Instructor James">
+                                    </div>
+                                </div>
+                            </div> <!--/.classes__item-->
+
+                            <div class="classes__item">
+                                <div class="classes__content">
+                                    <h3 class="classes__name">YOGA</h3>
+                                    <p class="classes__text">
+                                        Nsl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel lacus quis lacinia.
+                                    </p>
+
+                                    <div class="classes__photo">
+                                        <img class="classes__instructor" src="images/instructor_2.jpg" alt="Picture of instructor" title="Instructor Tina">
+                                    </div>
+                                    
+                                </div>
+                            </div> <!--/.classes__item-->
+
+                            <div class="classes__item">
+                                <div class="classes__content">
+                                    <h3 class="classes__name">PILATES</h3>
+                                    <p class="classes__text">
+                                        Consectetur adipisicing elit. Repudiandae, non. Dolorem, praesentium! Illo, consequuntur aliquam quo saepe alias architecto reprehenderit laudantium perferendis perspiciatis neque dolores tenetur unde minima. Unde vitae odit porro nihil dolorum quidem.
+                                    </p>
+
+                                    <div class="classes__photo">
+                                        <img class="classes__instructor" src="images/instructor_3.jpg" alt="Picture of instructor" title="Instructor Kate">
+                                    </div>
+                                    
+                                </div>
+                            </div> <!--/.classes__item-->
+
+                          
+                        </div> <!--/.classes__inner-->
+            </div> <!--/.container-->
+        </section> <!--/.classes -->
+
+
+        <section class="pricing wow">
+            <div class="pricing__content">
+                <div class="container">
+                    <h3 class="subtitle pricing__subtitle wow fadeInRightBig" data-wow-duration="0.8s" data-wow-delay=".4s" data-wow-offset="180">OUR PROGRAMS</h3>
+                    <h2 class="title pricing__title wow fadeInLeftBig" data-wow-duration="0.8s" data-wow-delay=".4s" data-wow-offset="180">PRICING</h2>
+
+                    <div class="pricing__inner">
+
+                        <div class="pricing__item wow flipInY" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                            <div class="pricing__item-header">
+                                <div class="pricing__item-name">BEGINNER</div>
+                                <div class="pricing__item-title">Free</div>
+                                <div class="pricing__item-period">1 day</div>
+                            </div>
+
+                            <div class="pricing__item-content">
+                                <ul class="pricing__item-list">
+                                    <li>1 E&ndash;mail Addresess</li>
+                                    <li>5 GB Space</li>
+                                    <li>24h Live Support</li>
+                                    
+                                </ul>
+
+                            </div>
+
+                            <div class="pricing__item-footer">
+                                <div class="pricing__item-info">
+                                    <a href="#" title="pricing-info">
+                                        <i class="ri-information-fill"></i>
+                                    </a>
+                                </div>
+
+                                <div class="pricing__button">
+                                    <a class="button" href="#" title="button" role="button">Order plan</a> 
+                                </div>    
+                            </div>
+                        </div> <!--/.pricing__item-->
+
+                        <div class="pricing__item pricing__item-purple wow flipInY" data-wow-duration="0.7s" data-wow-delay="0.2s">
+
+                            <div class="pricing__item-header pricing__header-red">
+                                <div class="pricing__item-name">BEGINNER</div>
+                                <div class="pricing__item-title">$29 <span class="pricing__item--span">90</span></div>
+                                <div class="pricing__item-period">Per Month</div>
+                            </div>
+
+                            <div class="pricing__item-content">
+                                <ul class="pricing__item-list">
+                                    <li>1 E&ndash;mail Addresess</li>
+                                    <li>15 GB Space</li>
+                                    <li>24h Live Support</li>
+                                    <li>Documetation inside</li>
+        
+                                </ul>
+
+                            </div>
+
+                            <div class="pricing__item-footer">
+                                <div class="pricing__item-info">
+                                    <a href="#" title="pricing-info">
+                                        <i class="ri-information-fill"></i>
+                                    </a>
+                                </div>
+
+                                <div class="pricing__button">
+                                    <a class="button" href="#" title="button" role="button">Order plan</a> 
+                                </div>    
+                            </div> 
+
+
+                            
+                        </div> <!--/.pricing__item-purple-->
+
+                        <div class="pricing__item wow flipInY" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="pricing__item-header">
+                                <div class="pricing__item-name">BEGINNER</div>
+                                <div class="pricing__item-title">$59 <span class="pricing__item--span">90</span></div>
+                                <div class="pricing__item-period">Per 6 Month</div>
+                            </div>
+
+                            <div class="pricing__item-content">
+                                <ul class="pricing__item-list">
+                                    <li>2 E&ndash;mail Addresess</li>
+                                    <li>25 GB Space</li>
+                                    <li>24h Live Support</li>
+                                    <li>Documetation inside</li>
+                                    <li>SEO Plan</li>
+                                  
+                                </ul>
+
+                            </div>
+
+                            <div class="pricing__item-footer">
+                                <div class="pricing__item-info">
+                                    <a href="#" title="pricing-info">
+                                        <i class="ri-information-fill"></i>
+                                    </a>
+                                </div>
+
+                                <div class="pricing__button">
+                                    <a class="button" href="#" title="button" role="button">Order plan</a> 
+                                </div>    
+                            </div>
+                            
+                        </div> <!--/.pricing__item-->
+
+                    </div> <!--/.pricing__inner-->
+                </div> <!--/.container-->
+
+            </div>  <!--/.pricing__content-->
+        </section> <!--/.pricing-->
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="container">
+                <div class="logo footer__logo">
+                    <a href="#"><img src="images/logo_3.png" alt="sportify logo" title="sportify logo" aria-label="logo"></a>
+                </div>
+
+                <div class="footer__content">
+                    <div class="contacts">
+
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="#" title="telephone">
+                                    <img class="contacts__icon-middle" src="images/phone.png" alt="telephone" title="telephone">
+                                </a>
+                            </div>
+
+                            <div class="contacts__title">TALK TO US</div>
+                            <ul class="contacts__info">
+                                <li>+34 5667 4332 244</li>
+                                <li>+224 667 889</li>
+                            
+                            </ul>
+                        </div>
+                        
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="#" title="email">
+                                    <img class="contacts__icon-middle" src="images/mail.png" alt="mail" title="mail">
+                                </a>
+                            </div>
+
+                            <div class="contacts__title">E-MAIL</div>
+                            <ul class="contacts__info">
+                                <li>contact@sportify25.com</li>
+                                <li>office@sportify25.com</li>
+                            
+                            </ul>
+                        </div> 
+
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="https://www.google.com/maps?ll=40.763823,-73.94809&z=13&t=m&hl=ru-RU&gl=US&mapclient=apiv3&cid=3734087314244816034" title="location link" target="_blank">
+                                    <img class="contacts__icon-middle" src="images/location.png" alt="location" title="location">
+                                </a>
+                            </div>
+
+                            <div class="contacts__title">LOCATION</div>
+                            <ul class="contacts__info">
+                                <li>Main str. 25</li>
+                                <li>458811 CA</li>
+                            
+                            </ul>
+                        </div> 
+
+                    </div> <!--/.contacts-->
+
+                </div><!--/.footer__content-->
+
+            </div><!--/.container-->
+
+            
+     
+        </div> <!--/.footer__inner-->
+
+    <div class="footer__bar">
+        <div class="copyright">Copyright &copy; 2022 All rights reserved | This template is made with <span class = "copyright__hearth">&hearts;</span> by Maxim Rudenkov</div> 
+    </div>
+
+
+
+    </footer>
+
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
