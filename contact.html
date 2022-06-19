@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    
+    <title>Contact</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__menu">
+                <div class="logo header__logo">
+                    <a href="index.html"><img src="images/logo_3.png" alt="sportify logo" title="sportify logo" aria-label="logo"></a>
+                </div>
+            
+                <button class="header__burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                    <span class="burger__line burger__line_fourth"></span>
+                </button>
+                
+                
+                <nav class="nav">
+                        <ul class="nav__items">
+                            <li class="nav__link first-link"><a href="index.html" title="Home page">Home</a></li>
+                            <li class="nav__link"><a href="about.html" title="About us page">About us</a></li>
+                            <li class="nav__link"><a href="classes.html" title="Classes page">Classes</a></li>
+                            <li class="nav__link"><a href="blog.html" title="Blog page">Blog</a></li>
+                            <li class="nav__link"><a href="contact.html" title="Contacts page">Contact</a></li>
+                        </ul>
+                </nav>                              
+                
+                <div class="social">
+                    <div class="social__items">
+
+                        <div class="social__links">
+                            <a href="https://www.pinterest.com/" title="social__link" target="_blank" aria-label="pinterest"> <!--Добавить атрибуты для ссылок ВАЖНО -->
+                                <svg class="social__icon">
+                                    <use href="icons/svgicons.svg#pinterest"/>
+                                </svg>    
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.facebook.com/" title="social__link" target="_blank" aria-label="facebook">
+                                <svg class="social__icon">
+                                    <use href="icons/svgicons.svg#facebook"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.twitter.com/" title="social__link" target="_blank" aria-label="twitter">
+                                <svg class="social__icon">
+                                    <use href="icons/svgicons.svg#twitter"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.dribbble.com/" title="social__link" target="_blank" aria-label="dribbble">
+                                <svg class="social__icon">
+                                    <use href="icons/svgicons.svg#dribbble"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://www.behance.com/" title="social__link" target="_blank" aria-label="behance">
+                                <svg class="social__icon">
+                                    <use href="icons/svgicons.svg#behance"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div> <!--/.social__items-->
+                </div> <!--/.social-->
+                
+            </div> <!--/.header__menu-->
+                
+        </div> <!--/.header__wrapper-->
+        <h1 class="header__title">CONTACT</h1>
+    </header>
+
+
+    <main class="main">
+        
+        <section class="contact">
+            <div class="contact__inner">
+                <div class="contact__content wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay=".4s">
+
+                    <div class="contact__logo">
+                        <a href="#"><img src="images/logo_3.png" alt="sportify logo" title="sportify logo" aria-label="logo"></a>
+                    </div>
+
+                    <h3 class="contact__title">Our Contact Info</h3>
+                    
+                    <div class="contact__info">
+                        <p class="contact__text">
+                            Auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel lacus quis.
+                        </p>
+
+                        <div class="contact__address">
+                            <ul>
+                                <li>Main Str, no 23, New York</li>
+                                <li>+546 990221 123</li>
+                                <li>gymsportify@contact.com</li>
+                            </ul>
+                        </div>
+                    </div> <!--/.contact__info-->
+                    
+
+                    <div class="contact__form-container">
+
+                        <form class="contact__form" action="/TestForm.php" method="get">
+                            
+                            <div class="contact__name">
+                                <input class="contact__input" type="text" name="username" placeholder="Your name">
+                            </div>
+
+                            <div class="contacts__email">
+                                <input class="contact__input" type="email" name="useremail" placeholder="Your email">
+                            </div>
+
+                            <div class="contact__subject">
+                                <input class="contact__input" type="text" name="subject" placeholder="Subject">
+                            </div>
+
+                            <div class="contact__area">
+                                <textarea class="contact__textarea" name="usertext" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="contact__submit">
+                                <input class="button" type="submit" value="send message">
+                            </div>
+                            
+                            <div class="contact__reset">
+                                <input class="button button-reset" type="reset" value="reset">
+                            </div>
+
+                        </form>
+
+                    </div> <!--/.contact__form-container-->
+
+                    
+                </div> <!--/.contact__content-->
+
+
+                <div id="map"  class="map wow fadeInRightBig" data-wow-duration="1s" data-wow-delay=".4s"></div>
+
+            </div> <!--/.contact__inner-->
+            
+        </section> <!--/.contact-->
+
+    </main>
+
+
+    <footer class="footer">
+        <section class="footer__inner">
+            <div class="container">
+                <div class="logo footer__logo">
+                    <a href="#"><img src="images/logo_3.png" alt="sportify logo" title="sportify logo" aria-label="logo"></a>
+                </div>
+
+                <div class="footer__content">
+                    <div class="contacts">
+
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="#" title="telephone">
+                                    <img class="contacts__icon-middle" src="images/phone.png" alt="telephone" title="telephone">
+                                </a>
+                            </div>
+
+                            <h3 class="contacts__title">TALK TO US</h3>
+                            <ul class="contacts__info">
+                                <li>+34 5667 4332 244</li>
+                                <li>+224 667 889</li>
+                            
+                            </ul>
+                        </div> <!--/.contacts__item-->
+                        
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="#" title="email">
+                                    <img class="contacts__icon-middle" src="images/mail.png" alt="mail" title="mail">
+                                </a>
+                            </div>
+
+                            <h3 class="contacts__title">E-MAIL</h3>
+                            <ul class="contacts__info">
+                                <li>contact@sportify25.com</li>
+                                <li>office@sportify25.com</li>
+                            
+                            </ul>
+                        </div> <!--/.contacts__item-->
+
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <a href="https://www.google.com/maps?ll=40.763823,-73.94809&z=13&t=m&hl=ru-RU&gl=US&mapclient=apiv3&cid=3734087314244816034" title="location link" target="_blank">
+                                    <img class="contacts__icon-middle" src="images/location.png" alt="location" title="location">
+                                </a>
+                            </div>
+
+                            <h3 class="contacts__title">LOCATION</h3>
+                            <ul class="contacts__info">
+                                <li>Main str. 25</li>
+                                <li>458811 CA</li>
+                            
+                            </ul>
+                        </div> <!--/.contacts__item-->
+
+                    </div> <!--/.contacts-->
+
+                </div><!--/.footer__content-->
+
+            </div><!--/.container-->
+
+            
+     
+        </section> <!--/.footer__inner-->
+
+    <div class="footer__bar">
+        <div class="copyright">Copyright &copy; 2022 All rights reserved | This template is made with <span class = "copyright__hearth">&hearts;</span> by Maxim Rudenkov</div> 
+    </div>
+
+
+
+    </footer>
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMuVKJgYvBm9pfCGWvTLCbre1N62OBzOM&callback=initMap"></script>
+
+</body>
+</html>
